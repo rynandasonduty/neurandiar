@@ -1,0 +1,23 @@
+# --- Core Framework ---
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+python-multipart
+
+# --- Data Science & BCI ---
+numpy
+pandas
+scipy
+mne
+pylsl
+scikit-learn
+tensorflow # atau torch (sesuai preferensi EEGNet nanti)
+
+# --- Hardware Drivers ---
+hidapi
+pycryptodome
+pyshark
+
+# --- Code Quality (CI) ---
+black
+ruff
+pytest

@@ -1,0 +1,8 @@
+# backend/pyproject.toml
+[tool.black]
+line-length = 88
+target-version = ['py310']
+
+[tool.ruff]
+line-length = 88
+select = ["E", "F", "I"] # Error, Pyflakes, Import sorting
