@@ -14,7 +14,6 @@ def EEGNet(nb_classes, Chans=14, Samples=256,
     
     input1 = Input(shape=(Chans, Samples, 1))
 
-    ##################################################################
     block1 = Conv2D(F1, (1, kernLength), padding='same',
                     input_shape=(Chans, Samples, 1),
                     use_bias=False)(input1)
